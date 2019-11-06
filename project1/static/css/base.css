@@ -1,0 +1,17 @@
+body {
+    background-color: var(--primary-gray);
+    color: var(--primary-white);
+}
+
+a {
+    color: var(--primary-white);
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: var(--primary-yellow);
+}
+
+.btn {
+    border-radius: 0;
+}

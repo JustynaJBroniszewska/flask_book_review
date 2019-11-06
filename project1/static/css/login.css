@@ -1,0 +1,10 @@
+.c-login-wrapper {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-login-wrapper .row {
+    width: 600px;
+}

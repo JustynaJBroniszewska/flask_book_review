@@ -1,0 +1,28 @@
+:root {
+    /* Colors */
+    --primary-gray: #131216;
+    --primary-white: #ffffff;
+    --primary-pink: #fe938c;
+    --primary-purple: #d496a7;
+    --primary-blue: #1f205a;
+    --primary-yellow: #ffc119;
+
+    --light-gray: #dddddd;
+    --light-yellow: #fdd76f;
+
+    /* Margin - padding */
+    --size-xs: 1rem;
+    --size-basic: 2rem;
+    --size-md: 3rem;
+
+    /* Font-size */
+    --font-xs: .5rem;
+    --font-tags: .6rem;
+    --font-average: .7rem;
+    --font-footer: .8rem;
+    --font-author: .9rem;
+    --font-btn: 1.2rem;
+    --font-cta: 1.3rem;
+    --font-sm: 1.5rem;
+    --font-md: 1.7rem;
+}

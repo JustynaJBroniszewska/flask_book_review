@@ -1,0 +1,33 @@
+/* Footer */
+/* Footer links */
+
+footer .c-helpful-links,
+footer .c-about-platform {
+    display: flex;
+    justify-content: center;
+    padding-top: var(--size-xs);
+    text-align: center;
+}
+
+footer .c-helpful-links .footer-link-wrapper a {
+    color: var(--primary-white);
+}
+
+footer .c-helpful-links .footer-link-wrapper a:hover {
+    padding: var(--font-xs);
+}
+
+/* Copyright */
+footer .footer-copyright {
+    margin-top: var(--size-xs);
+    text-align: center;
+}
+
+footer .footer-copyright,
+footer .footer-copyright a {
+    color: var(--primary-white);
+}
+
+footer .footer-copyright a {
+    padding: var(--font-xs);
+}
