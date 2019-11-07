@@ -26,10 +26,14 @@ db = scoped_session(sessionmaker(bind=engine))
 def index():
     return render_template('index.html') 
 
-@app.route("/login", methods=['POST', 'GET'])
+@app.route("/login",)
 def login():
+    return render_template('login.html') 
+
+@app.route("/user_account", methods=['POST', 'GET'])
+def user_account():
     login = request.form.get("login")
-    return render_template('login.html', login=login) 
+    return render_template('user_account.html',login=login)
 
 if __name__ == "__main__":
     app.run(debug=True)

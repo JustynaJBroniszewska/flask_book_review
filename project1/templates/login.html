@@ -4,12 +4,12 @@
 
 <div class="container c-login-wrapper">
     <div class="row">
-        <div class="col-12">{{ login }}
+        <div class="col-12">
 
-            <form action="{{ url_for('login') }}" method="POST">
+            <form action="{{ url_for('user_account') }}" method="POST">
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" name="login" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    <label for="InputEmail">Email address</label>
+                    <input type="email" name="login" class="form-control" id="InputEmail" aria-describedby="emailHelp"
                            placeholder="Enter email">
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                         else.</small>
@@ -18,7 +18,8 @@
                     <label for="exampleInputPassword1">Password</label>
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                 </div>
-                
+                <a href={{ url_for('index')  }} type="submit" class="btn btn-outline-dark">Back to index </a>
+
                 <button type="submit" class="btn btn-warning">Submit</button>
             </form>
 
