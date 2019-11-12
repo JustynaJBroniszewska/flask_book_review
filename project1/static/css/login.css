@@ -1,10 +1,6 @@
-.c-login-wrapper {
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.c-login-wrapper .row {
-    width: 600px;
+.login-page-wrapper {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

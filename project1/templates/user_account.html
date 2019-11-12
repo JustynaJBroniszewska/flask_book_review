@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+{% if session['logged_in'] %}
+
 {% block content %}
 
 <div class="container">
@@ -105,3 +107,5 @@
 </div>
 
 {% endblock content %}
+
+{% endif %}

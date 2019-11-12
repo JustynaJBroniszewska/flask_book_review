@@ -1,3 +1,29 @@
 .c-index-wrapper {
     height: 90vh;
+    text-align: center;
 }
+
+.c-index-wrapper .hello-text {
+
+    font-size: 100px;
+    font-weight: bold;
+    background-image: url('/static/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: hello_text 3s infinite;
+}
+
+@keyframes hello_text {
+    0% {
+        background-position: 200px;
+    }
+
+    100% {
+        background-position: -200px;
+    }
+}
+
+/* Inspired by: https://www.youtube.com/watch?v=dDGbvrtysA4 */
